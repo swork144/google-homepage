@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#searchbar, #logo, #buttons {
+    display: flex;
+    justify-content: center;
+}
+
+#logo {
+    padding-top: 10%;
+}
+
+#searchbar {
+    position: relative;
+    top: 3em;
+}
+
+#searchbar input {
+    border-radius: 3em;
+    border: 0.04em solid rgb(206, 178, 178);
+    height: 4em;
+    width: 40em;
+}
+
+#navbar ul {
+    list-style-type: none;
+    padding: 0;
+    padding-top: 2em;
+    margin: 0 1em 0 1em;
+}
+
+#navbar ul a, #navbarbottom ul a{
+    text-decoration: none;
+    color: black;
+    padding: 14px 16px;
+}
+
+#navbar ul li, #navbarbottom ul li{
+    display: inline;
+}
+
+.right {
+    float: right;
+}
+
+#buttons {
+    position: relative;
+    top: 5em;
+}
+
+#buttons button {
+    margin-right: 1.5em;
+    margin-left: 1.5em;
+    height: 3em;
+    width: 10em;
+    background-color: rgb(243, 236, 236);
+    border: none;
+}
+
+#navbarbottom {
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    overflow: hidden;
+    background-color: rgb(243, 233, 233);
+    height: 3em;
+}
+
+#navbarbottom ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 1em 1em 0 1em;
+}
